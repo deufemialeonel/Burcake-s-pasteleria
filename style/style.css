@@ -1,0 +1,142 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+    background-color: rgb(253, 253, 253);
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: auto 1em;
+}
+
+@media screen and (min-width: 52em){
+
+    .centrado{
+    margin: 0 auto;
+    padding: 0 .8em;
+    }
+}
+
+.banner h1{
+    float: left;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.nav_bar{
+    width: 100%;
+    height: 2em;
+    font-size: 2em;
+}
+.nav_bar ul{
+    list-style:none;
+}
+.nav_bar li{
+    display: inline-flex;
+
+}
+
+
+.nav_bar a{
+    text-decoration: none;
+}
+
+.nav_bar a:hover{
+    color: rgb(252, 252, 252);
+}
+
+.nav_bar a:link{
+    color: rgb(252, 252, 252);
+}
+
+.nav_bar a:visited{
+    color: rgb(252, 252, 252);
+}
+
+
+.nos_pad{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nosotros{
+    width: 100%;
+}
+
+
+.nos_desc1{
+    width: 50%;
+    font-size: 4em;
+}
+
+.nos_desc2{
+    width: 50%;
+    font-size: 2.5em;
+}
+
+
+
+
+
+
+.grilla_productos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto{
+    width: 30%;
+    padding: 2em;
+    background-color: rgba(243, 105, 174, 0.199);
+    border-radius: 5em; 
+}
+
+.producto img{
+    width: 100%;
+    height: auto;
+    display:block;
+    border-radius: 3em;
+    
+}
+
+.cont_prod{
+    padding: 1.4em;
+    border-radius: 3em;
+    margin-top: 2em;
+}
+
+.cont_prod h3{
+    margin-top: 0 ;
+    margin-bottom: .5em;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.cont_prod p{
+    font-size: 90%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
